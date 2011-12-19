@@ -1,0 +1,9 @@
+This is a Photoshop script which allows you to create vertical and horizontal guides. 
+
+* Put the WebGrid.jsx into <your Photoshop - Folder>/Presents/Scripts
+* restart Photoshop
+* look into File > Scripts > WebGrid
+
+Based on: grid.jsx
+Author: Liang Wang<bonede@gmail.com>
+URL: http://code.google.com/p/grid-jsx/
