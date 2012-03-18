@@ -75,20 +75,20 @@ function WebGrid() {
 						}, \
 						width: Group { orientation: 'row', alignment: 'left',\
 							s: StaticText { text:'Document Width' }, \
-                                i: StaticText { text:'"+docRef.width.as('px')+"' } \
+                                i: StaticText { text:'"+docRef.width.as('px')+" px' } \
 						}, \
                            height: Group { orientation: 'row', alignment: 'left',\
 							s: StaticText { text:'Document Height' }, \
-                                i: StaticText { text:'"+docRef.height.as('px')+"' } \
+                                i: StaticText { text:'"+docRef.height.as('px')+" px' } \
+						}, \
+						 gridWidth: Group { orientation: 'row', alignment: 'left', \
+							s: StaticText { text:'Grid Width' }, \
+							e: StaticText { text:'' }, \
 						}, \
                           rowCount: Group { orientation: 'row', alignment: 'left', \
 							s: StaticText { text:'Row Count' }, \
 							e: StaticText { text:'' }, \
-						}, \
-                          gridWidth: Group { orientation: 'row', alignment: 'left', \
-							s: StaticText { text:'Grid Width' }, \
-							e: StaticText { text:'' }, \
-						}, \
+					    },\
 					}, \
                     }\
                  buttons: Group { orientation: 'row',  \
